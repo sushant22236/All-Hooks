@@ -23,6 +23,7 @@ const App = () => {
     <div>
       <Button counter={counter} onClick={increaseCount} />
       <Card name = {name} setName={setName}/>
+      <Card name = {name} setName={setName}/>
       <p>name variable inside App {name}</p>
     </div>
     
