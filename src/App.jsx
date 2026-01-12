@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import Button from './components/Button'
+import Card from './components/Card'
+
 const App = () => {
   const [counter, setCounter] = useState(0)
-  // const [name, setName] = useState("")
+  const [name, setName] = useState("")
 
   // const [details, setDetails] = useState({age: 0, city: ""})
 
@@ -17,7 +19,13 @@ const App = () => {
   // console.log(counter)
 
   return (
-    <Button counter={counter} onClick={increaseCount} />
+
+    <div>
+      <Button counter={counter} onClick={increaseCount} />
+      <Card name = {name} setName={setName}/>
+      <p>name variable inside App {name}</p>
+    </div>
+    
     // <div>
     //   <input type="text" value={name} onChange={handleInputChange} placeholder='name' />
     //   <input type='number' value={details.age} onChange={(e) => setDetails({...details, age: e.target.value})} placeholder='Age' />
