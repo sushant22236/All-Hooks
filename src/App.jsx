@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import Button from './components/Button'
 import Card from './components/Card'
 import Home from './components/Home'
+import TimerComponents from './components/TimerComponents'
+import DataFetcherComponents from './components/DataFetcherComponents'
+import ResizeWindowSize from './components/ResizeWindowSize'
 
 const App = () => {
   // const [counter, setCounter] = useState(0)
@@ -26,7 +29,9 @@ const App = () => {
       <Card name = {name} setName={setName}/>
       <Card name = {name} setName={setName}/> */}
       {/* <p>name variable inside App {name}</p> */}
-      <Home/>
+      {/* <TimerComponents/> */}
+      {/* <DataFetcherComponents/> */}
+      <ResizeWindowSize/>
     </div>
     
     // <div>
