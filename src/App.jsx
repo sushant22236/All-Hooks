@@ -5,6 +5,7 @@ import Home from './components/Home'
 import TimerComponents from './components/TimerComponents'
 import DataFetcherComponents from './components/DataFetcherComponents'
 import ResizeWindowSize from './components/ResizeWindowSize'
+import Counter from './components/Counter'
 
 const App = () => {
   // const [counter, setCounter] = useState(0)
@@ -31,7 +32,9 @@ const App = () => {
       {/* <p>name variable inside App {name}</p> */}
       {/* <TimerComponents/> */}
       {/* <DataFetcherComponents/> */}
-      <ResizeWindowSize/>
+      {/* <ResizeWindowSize/> */}
+
+      <Counter/>
     </div>
     
     // <div>
