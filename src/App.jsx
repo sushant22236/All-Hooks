@@ -6,6 +6,7 @@ import TimerComponents from './components/TimerComponents'
 import DataFetcherComponents from './components/DataFetcherComponents'
 import ResizeWindowSize from './components/ResizeWindowSize'
 import Counter from './components/Counter'
+import Todo from './components/Todo'
 
 const App = () => {
   // const [counter, setCounter] = useState(0)
@@ -34,7 +35,8 @@ const App = () => {
       {/* <DataFetcherComponents/> */}
       {/* <ResizeWindowSize/> */}
 
-      <Counter/>
+      {/* <Counter/> */}
+      <Todo/>
     </div>
     
     // <div>
